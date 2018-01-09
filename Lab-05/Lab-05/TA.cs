@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab-05
+namespace Lab05
 {
-    class TA
+    internal class TeacherAssistant : Staff
+
     {
+        public bool Graduate { get; set; }
+        public override int Experience => 1;
     }
 }

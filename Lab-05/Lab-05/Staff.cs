@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab-05
+namespace Lab05
 {
-    class Staff
+    internal class Staff : People
     {
+        public string JobTitle { get; set; }
+        public string WorkSchedule { get; set; }
+        public string Department { get; set; }        
+
     }
 }

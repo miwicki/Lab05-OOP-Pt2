@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab-05
+namespace Lab05
 {
-    class Teachers
+    internal class Teachers : Staff
     {
+        public string Language { get; set; }
+        public string ClassSize { get; set; }
+        public string DayOrNight { get; set; }
+
     }
 }

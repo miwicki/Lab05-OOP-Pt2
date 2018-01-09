@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab-05
+namespace Lab05
 {
-    class People
+
+    abstract class People : CodeFellows
     {
+        public byte Id { get; set; }
+        public string Name { get; set; }
+                
+        public virtual int Experience { get; set; }
     }
 }

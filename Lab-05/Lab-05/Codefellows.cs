@@ -2,9 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab-05
+namespace Lab05
 {
-    class Codefellows
+    public abstract class CodeFellows
     {
+        public string SchoolName { get; set; }
+        public string Location { get; set; }
+     
+        public string CodeOfConduct()
+        {
+            string phrase = "Be good plz";
+            return phrase;
+        }
     }
 }
